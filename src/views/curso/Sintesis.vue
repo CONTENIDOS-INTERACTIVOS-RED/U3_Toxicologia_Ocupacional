@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad 3: Bioética y sostenibilidad en el desarrollo económico global, establece los principios esenciales para comprender cómo los valores éticos y bioéticos pueden orientar el desarrollo económico hacia la sostenibilidad. Esta unidad proporciona una perspectiva integral sobre la relación entre la economía, el medio ambiente y los derechos humanos, destacando la importancia de prácticas responsables en contextos globalizados. Este enfoque asegura que los estudiantes adquieran una comprensión sólida de los desafíos éticos actuales y las estrategias sostenibles, permitiéndoles aplicar estas herramientas de manera efectiva en su formación profesional y en la vida cotidiana.
+      p(data-aos="fade-up").mb-5 La unidad 3: Toxicología industrial, aborda los procesos mediante los cuales los contaminantes ingresan, se distribuyen, metabolizan y eliminan del organismo, así como los mecanismos de acción que producen efectos tóxicos en los tejidos y órganos. Esta unidad integra conceptos esenciales para comprender la relación entre la dosis y la respuesta biológica, analizando factores que influyen en la absorción, distribución, biotransformación y excreción de sustancias. Este enfoque permite a los estudiantes desarrollar una visión integral sobre cómo las propiedades químicas y biológicas de los agentes peligrosos determinan su impacto en la salud, favoreciendo la aplicación de medidas preventivas y de control en el ámbito laboral.
 
       .row.justify-content-center
         .col-lg-12.mb-5

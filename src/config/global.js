@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    tituloUnidad: 'Toxicología industrial',
   },
   menuPrincipal: {
     menu: [
@@ -15,20 +15,14 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Toxicología industrial',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Clasificación de los agentes tóxicos en la industria',
             hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
           },
         ],
       },
@@ -36,25 +30,25 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Plaguicidas',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Clasificación de los plaguicidas',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Efectos en la salud humana',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Subtítulo tema',
+            titulo: 'Efectos de los plaguicidas en el medio ambiente',
             hash: 't_2_3',
           },
         ],
@@ -63,20 +57,39 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Hidrocarburos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Gases y vapores tóxicos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
+            numero: '4.1',
+            titulo: 'Gases inertes',
+            hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
+            numero: '4.2',
+            titulo: 'Gases tóxicos  ',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Gases y vapores irritantes',
+            hash: 't_4_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.4',
+            titulo: 'Gases y vapores asfixiantes',
+            hash: 't_4_4',
           },
         ],
       },
@@ -118,26 +131,129 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Stellman, S. D. (2012). Capítulo 33 Toxicología. Enciclopedia de la OIT: ( ed.). D - INSHT (Instituto Nacional de Seguridad e Higiene en el Trabajo).  ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/96247?page=1',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'World Health Organization. (2020). Pesticide residues in food.  ',
+      link: 'https://www.who.int',
+    },
+    {
+      referencia:
+        'Zumárraga Suárez, H. A. (2016). Plaguicidas: verdades, evidencias y alternativas de cambio: ( ed.). Ediciones Abya-Yala.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/79967',
+    },
+    {
+      referencia:
+        'U.S. Environmental Protection Agency (EPA). (2020). Volatile Organic Compounds Impact on Indoor Air Quality.  ',
+      link:
+        'https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality',
+    },
+    {
+      referencia:
+        'Calderón, J. (2004). Subproductos halogenados de la cloración en el agua de consumo público: ( ed.). Gaceta Sanitaria - Ediciones Doyma, S.L.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/31853',
+    },
+    {
+      referencia:
+        'Karam, M. Á. (2006). Plaguicidas y salud de la población: ( ed.). Red Ciencia Ergo Sum.  ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/18242 ',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Absorción dérmica',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Entrada de sustancias químicas a través de la piel hacia el cuerpo.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Agente químico',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Sustancia que puede causar daño por su composición química.',
+    },
+    {
+      termino: 'Asfixiante',
+      significado:
+        'Gas que interfiere con el suministro o uso del oxígeno en el cuerpo.',
+    },
+    {
+      termino: 'Bioacumulación',
+      significado:
+        'Acumulación de sustancias tóxicas en organismos vivos a lo largo del tiempo.',
+    },
+    {
+      termino: 'Bioplaguicida',
+      significado:
+        'Sustancia natural usada para controlar plagas sin afectar el medio ambiente.',
+    },
+    {
+      termino: 'Carcinógeno',
+      significado: 'Sustancia que puede causar cáncer en humanos o animales.',
+    },
+    {
+      termino: 'DL50',
+      significado:
+        'Dosis letal media: cantidad de sustancia que mata al 50% de una población.',
+    },
+    {
+      termino: 'Disolvente orgánico',
+      significado:
+        'Líquido volátil que disuelve compuestos orgánicos, usado en procesos industriales.',
+    },
+    {
+      termino: 'Endocrino (disruptor)',
+      significado:
+        'Sustancia que altera el funcionamiento hormonal del cuerpo.',
+    },
+    {
+      termino: 'Exposición ocupacional',
+      significado: 'Contacto con sustancias peligrosas durante el trabajo.',
+    },
+    {
+      termino: 'Gases tóxicos',
+      significado: 'Compuestos gaseosos dañinos por inhalación o contacto.',
+    },
+    {
+      termino: 'Hidrocarburos',
+      significado:
+        'Compuestos orgánicos formados por carbono e hidrógeno, comunes en combustibles.',
+    },
+    {
+      termino: 'Ingestión',
+      significado:
+        'Entrada de sustancias químicas al cuerpo a través del sistema digestivo.',
+    },
+    {
+      termino: 'Inhalación',
+      significado: 'Entrada de sustancias químicas por vía respiratoria.',
+    },
+    {
+      termino: 'Monitoreo ambiental',
+      significado:
+        'Evaluación periódica de contaminantes en el entorno laboral.',
+    },
+    {
+      termino: 'Neurotoxicidad',
+      significado: 'Daño al sistema nervioso causado por sustancias tóxicas.',
+    },
+    {
+      termino: 'Plaguicidas',
+      significado:
+        'Sustancias utilizadas para eliminar plagas que afectan cultivos o salud.',
+    },
+    {
+      termino: 'Radón',
+      significado: 'Gas inerte radiactivo que puede causar cáncer pulmonar.',
+    },
+    {
+      termino: 'Solvente',
+      significado: 'Sustancia que disuelve otra formando una solución.',
+    },
+    {
+      termino: 'TLV',
+      significado:
+        'Valor límite umbral: concentración máxima permitida de un contaminante.',
     },
   ],
 }
