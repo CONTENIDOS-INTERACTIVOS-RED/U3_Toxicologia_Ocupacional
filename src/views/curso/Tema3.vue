@@ -13,12 +13,12 @@
             p(data-aos="fade-left").mb-4 Para conocer sobre esta temática, se invita a escuchar el siguiente podcast.
     
             TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-              texto="Fundamentos de la innovación estratégica"
+              texto="Hidrocarburos"
               tiempo
               :audio="require('../../assets/curso/podcast/podcast1.mp3')"
             )
 
-    .bg-full-width.bg-color-7.mb-5
+    .bg-full-width.bg-color-7.mb-0
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-7.order-2
